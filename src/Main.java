@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Bicycle kama = new Bicycle("Kama", 2);
+        Bicycle ural = new Bicycle("Ural", 4);
+
+        kama.updateTyre(ural);
     }
 }
